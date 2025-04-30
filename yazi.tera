@@ -1,0 +1,223 @@
+---
+whiskers:
+  version: ^2.0.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/evergarden-{{flavor.identifier}}-{{accent}}.toml"
+---
+{% set accent = flavor.colors[accent] -%}
+{% macro ftrule(mime, color) -%}
+[[filetype.rules]]
+fg = "#{{color.hex}}"
+mime = "{{mime}}"
+{%- endmacro ftrule -%}
+
+[completion.active]
+bg = "#{{surface0.hex}}"
+fg = "#{{pink.hex}}"
+
+[completion.border]
+fg = "#{{green.hex}}"
+
+[completion.inactive]
+fg = "#{{text.hex}}"
+
+{{self::ftrule(mime="image/*", color=aqua)}}
+
+{{self::ftrule(mime="video/*", color=yellow)}}
+
+{{self::ftrule(mime="audio/*", color=yellow)}}
+
+{{self::ftrule(mime="application/zip", color=pink)}}
+
+{{self::ftrule(mime="application/gzip", color=pink)}}
+
+{{self::ftrule(mime="application/x-tar", color=pink)}}
+
+{{self::ftrule(mime="application/x-bzip", color=pink)}}
+
+{{self::ftrule(mime="application/x-bzip2", color=pink)}}
+
+{{self::ftrule(mime="application/x-7z-compressed", color=pink)}}
+
+{{self::ftrule(mime="application/x-rar", color=pink)}}
+
+{{self::ftrule(mime="application/xz", color=pink)}}
+
+{{self::ftrule(mime="application/doc", color=green)}}
+
+{{self::ftrule(mime="application/pdf", color=green)}}
+
+{{self::ftrule(mime="application/rtf", color=green)}}
+
+{{self::ftrule(mime="application/vnd.*", color=green)}}
+
+{{self::ftrule(mime="inode/directory", color=subtext0)}}
+
+{{self::ftrule(mime="*", color=subtext1)}}
+
+[help.desc]
+fg = "#{{text.hex}}"
+
+[help.footer]
+fg = "#{{text.hex}}"
+
+[help.hovered]
+bg = "#{{surface0.hex}}"
+fg = "#{{text.hex}}"
+
+[help.on]
+fg = "#{{pink.hex}}"
+
+[help.run]
+fg = "#{{aqua.hex}}"
+
+[input.border]
+fg = "#{{green.hex}}"
+
+[input.selected]
+bg = "#{{surface0.hex}}"
+
+[input.title]
+fg = "#{{text.hex}}"
+
+[input.value]
+fg = "#{{text.hex}}"
+
+[manager]
+border_symbol = " "
+folder_offset = [1, 0, 1, 0]
+preview_offset = [1, 1, 1, 1]
+tab_width = 1
+[manager.border_style]
+fg = "#{{surface1.hex}}"
+
+[manager.cwd]
+fg = "#{{aqua.hex}}"
+
+[manager.find_keyword]
+fg = "#{{green.hex}}"
+
+[manager.find_position]
+fg = "#{{text.hex}}"
+
+[manager.hovered]
+bg = "#{{surface0.hex}}"
+fg = "#{{text.hex}}"
+
+[manager.marker_copied]
+bg = "#{{yellow.hex}}"
+fg = "#{{yellow.hex}}"
+
+[manager.marker_cut]
+bg = "#{{red.hex}}"
+fg = "#{{red.hex}}"
+
+[manager.marker_selected]
+bg = "#{{green.hex}}"
+fg = "#{{green.hex}}"
+
+[manager.preview_hovered]
+bg = "#{{surface0.hex}}"
+fg = "#{{text.hex}}"
+
+[manager.tab_active]
+bg = "#{{green.hex}}"
+fg = "#{{base.hex}}"
+
+[manager.tab_inactive]
+bg = "#{{subtext1.hex}}"
+fg = "#{{surface1.hex}}"
+
+[mode.normal_alt]
+bg = "#{{accent.hex}}"
+fg = "#{{base.hex}}"
+
+[mode.normal_main]
+bg = "#{{base.hex}}"
+fg = "#{{accent.hex}}"
+
+[mode.select_alt]
+bg = "#{{base.hex}}"
+fg = "#{{pink.hex}}"
+
+[mode.select_main]
+bg = "#{{pink.hex}}"
+fg = "#{{base.hex}}"
+
+[mode.unset_alt]
+bg = "#{{base.hex}}"
+fg = "#{{overlay0.hex}}"
+
+[mode.unset_main]
+bg = "#{{overlay0.hex}}"
+fg = "#{{base.hex}}"
+
+[select.active]
+fg = "#{{pink.hex}}"
+
+[select.border]
+fg = "#{{green.hex}}"
+
+[select.inactive]
+fg = "#{{text.hex}}"
+
+[status]
+separator_close = ""
+separator_open = ""
+[status.permissions_r]
+fg = "#{{yellow.hex}}"
+
+[status.permissions_s]
+fg = "#{{aqua.hex}}"
+
+[status.permissions_t]
+fg = "#{{blue.hex}}"
+
+[status.permissions_w]
+fg = "#{{purple.hex}}"
+
+[status.permissions_x]
+fg = "#{{green.hex}}"
+
+[status.progress_error]
+bg = "#{{base.hex}}"
+fg = "#{{red.hex}}"
+
+[status.progress_label]
+bg = "#{{base.hex}}"
+fg = "#{{text.hex}}"
+
+[status.progress_normal]
+bg = "#{{base.hex}}"
+fg = "#{{text.hex}}"
+
+[status.separator_style]
+bg = "#{{surface0.hex}}"
+fg = "#{{surface0.hex}}"
+
+[tasks.border]
+fg = "#{{green.hex}}"
+
+[tasks.hovered]
+bg = "#{{surface0.hex}}"
+fg = "#{{text.hex}}"
+
+[tasks.title]
+fg = "#{{text.hex}}"
+
+[which.cand]
+fg = "#{{aqua.hex}}"
+
+[which.desc]
+fg = "#{{text.hex}}"
+
+[which.mask]
+bg = "#{{surface1.hex}}"
+
+[which.rest]
+fg = "#{{overlay0.hex}}"
+
+[which.separator_style]
+fg = "#{{overlay0.hex}}"

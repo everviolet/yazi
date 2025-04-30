@@ -1,0 +1,243 @@
+[completion.active]
+bg = "#313b40"
+fg = "#ebb9dd"
+
+[completion.border]
+fg = "#bcd19c"
+
+[completion.inactive]
+fg = "#dddecf"
+
+[[filetype.rules]]
+fg = "#a1cfad"
+mime = "image/*"
+
+[[filetype.rules]]
+fg = "#e1c182"
+mime = "video/*"
+
+[[filetype.rules]]
+fg = "#e1c182"
+mime = "audio/*"
+
+[[filetype.rules]]
+fg = "#ebb9dd"
+mime = "application/zip"
+
+[[filetype.rules]]
+fg = "#ebb9dd"
+mime = "application/gzip"
+
+[[filetype.rules]]
+fg = "#ebb9dd"
+mime = "application/x-tar"
+
+[[filetype.rules]]
+fg = "#ebb9dd"
+mime = "application/x-bzip"
+
+[[filetype.rules]]
+fg = "#ebb9dd"
+mime = "application/x-bzip2"
+
+[[filetype.rules]]
+fg = "#ebb9dd"
+mime = "application/x-7z-compressed"
+
+[[filetype.rules]]
+fg = "#ebb9dd"
+mime = "application/x-rar"
+
+[[filetype.rules]]
+fg = "#ebb9dd"
+mime = "application/xz"
+
+[[filetype.rules]]
+fg = "#bcd19c"
+mime = "application/doc"
+
+[[filetype.rules]]
+fg = "#bcd19c"
+mime = "application/pdf"
+
+[[filetype.rules]]
+fg = "#bcd19c"
+mime = "application/rtf"
+
+[[filetype.rules]]
+fg = "#bcd19c"
+mime = "application/vnd.*"
+
+[[filetype.rules]]
+fg = "#96b4aa"
+mime = "inode/directory"
+
+[[filetype.rules]]
+fg = "#adc9bc"
+mime = "*"
+
+[help.desc]
+fg = "#dddecf"
+
+[help.footer]
+fg = "#dddecf"
+
+[help.hovered]
+bg = "#313b40"
+fg = "#dddecf"
+
+[help.on]
+fg = "#ebb9dd"
+
+[help.run]
+fg = "#a1cfad"
+
+[input.border]
+fg = "#bcd19c"
+
+[input.selected]
+bg = "#313b40"
+
+[input.title]
+fg = "#dddecf"
+
+[input.value]
+fg = "#dddecf"
+
+[manager]
+border_symbol = " "
+folder_offset = [1, 0, 1, 0]
+preview_offset = [1, 1, 1, 1]
+syntect_theme = "/nix/store/si9rzn9x953vphhswlvac14aa50gndbj-evergarden-syntax"
+tab_width = 1
+[manager.border_style]
+fg = "#3d494d"
+
+[manager.cwd]
+fg = "#a1cfad"
+
+[manager.find_keyword]
+fg = "#bcd19c"
+
+[manager.find_position]
+fg = "#dddecf"
+
+[manager.hovered]
+bg = "#313b40"
+fg = "#dddecf"
+
+[manager.marker_copied]
+bg = "#e1c182"
+fg = "#e1c182"
+
+[manager.marker_cut]
+bg = "#e67e80"
+fg = "#e67e80"
+
+[manager.marker_selected]
+bg = "#bcd19c"
+fg = "#bcd19c"
+
+[manager.preview_hovered]
+bg = "#313b40"
+fg = "#dddecf"
+
+[manager.tab_active]
+bg = "#bcd19c"
+fg = "#232a2e"
+
+[manager.tab_inactive]
+bg = "#adc9bc"
+fg = "#3d494d"
+
+[mode.normal_alt]
+bg = "#9bb5cf"
+fg = "#232a2e"
+
+[mode.normal_main]
+bg = "#232a2e"
+fg = "#9bb5cf"
+
+[mode.select_alt]
+bg = "#232a2e"
+fg = "#ebb9dd"
+
+[mode.select_main]
+bg = "#ebb9dd"
+fg = "#232a2e"
+
+[mode.unset_alt]
+bg = "#232a2e"
+fg = "#58686d"
+
+[mode.unset_main]
+bg = "#58686d"
+fg = "#232a2e"
+
+[select.active]
+fg = "#ebb9dd"
+
+[select.border]
+fg = "#bcd19c"
+
+[select.inactive]
+fg = "#dddecf"
+
+[status]
+separator_close = ""
+separator_open = ""
+[status.permissions_r]
+fg = "#e1c182"
+
+[status.permissions_s]
+fg = "#a1cfad"
+
+[status.permissions_t]
+fg = "#9bb5cf"
+
+[status.permissions_w]
+fg = "#c8afe0"
+
+[status.permissions_x]
+fg = "#bcd19c"
+
+[status.progress_error]
+bg = "#232a2e"
+fg = "#e67e80"
+
+[status.progress_label]
+bg = "#232a2e"
+fg = "#dddecf"
+
+[status.progress_normal]
+bg = "#232a2e"
+fg = "#dddecf"
+
+[status.separator_style]
+bg = "#313b40"
+fg = "#313b40"
+
+[tasks.border]
+fg = "#bcd19c"
+
+[tasks.hovered]
+bg = "#313b40"
+fg = "#dddecf"
+
+[tasks.title]
+fg = "#dddecf"
+
+[which.cand]
+fg = "#a1cfad"
+
+[which.desc]
+fg = "#dddecf"
+
+[which.mask]
+bg = "#3d494d"
+
+[which.rest]
+fg = "#58686d"
+
+[which.separator_style]
+fg = "#58686d"
