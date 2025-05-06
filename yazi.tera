@@ -18,7 +18,7 @@ bg = "#{{surface0.hex}}"
 fg = "#{{pink.hex}}"
 
 [completion.border]
-fg = "#{{green.hex}}"
+fg = "#{{accent.hex}}"
 
 [completion.inactive]
 fg = "#{{text.hex}}"
@@ -53,7 +53,7 @@ fg = "#{{text.hex}}"
 
 {{self::ftrule(mime="application/vnd.*", color=green)}}
 
-{{self::ftrule(mime="inode/directory", color=subtext0)}}
+{{self::ftrule(mime="inode/directory", color=overlay2)}}
 
 {{self::ftrule(mime="*", color=subtext1)}}
 
@@ -74,7 +74,7 @@ fg = "#{{pink.hex}}"
 fg = "#{{aqua.hex}}"
 
 [input.border]
-fg = "#{{green.hex}}"
+fg = "#{{accent.hex}}"
 
 [input.selected]
 bg = "#{{surface0.hex}}"
@@ -85,11 +85,6 @@ fg = "#{{text.hex}}"
 [input.value]
 fg = "#{{text.hex}}"
 
-[manager]
-border_symbol = " "
-folder_offset = [1, 0, 1, 0]
-preview_offset = [1, 1, 1, 1]
-tab_width = 1
 [manager.border_style]
 fg = "#{{surface1.hex}}"
 
@@ -148,17 +143,17 @@ fg = "#{{base.hex}}"
 
 [mode.unset_alt]
 bg = "#{{base.hex}}"
-fg = "#{{overlay0.hex}}"
+fg = "#{{overlay1.hex}}"
 
 [mode.unset_main]
-bg = "#{{overlay0.hex}}"
+bg = "#{{overlay1.hex}}"
 fg = "#{{base.hex}}"
 
 [select.active]
 fg = "#{{pink.hex}}"
 
 [select.border]
-fg = "#{{green.hex}}"
+fg = "#{{accent.hex}}"
 
 [select.inactive]
 fg = "#{{text.hex}}"
@@ -198,7 +193,7 @@ bg = "#{{surface0.hex}}"
 fg = "#{{surface0.hex}}"
 
 [tasks.border]
-fg = "#{{green.hex}}"
+fg = "#{{accent.hex}}"
 
 [tasks.hovered]
 bg = "#{{surface0.hex}}"
