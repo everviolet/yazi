@@ -3,7 +3,7 @@ bg = "#2d393d"
 fg = "#f3c0e5"
 
 [completion.border]
-fg = "#f7a182"
+fg = "#f6cee5"
 
 [completion.inactive]
 fg = "#f8f9e8"
@@ -93,7 +93,7 @@ fg = "#f3c0e5"
 fg = "#addeb9"
 
 [input.border]
-fg = "#f7a182"
+fg = "#f6cee5"
 
 [input.selected]
 bg = "#2d393d"
@@ -145,11 +145,11 @@ bg = "#adc9bc"
 fg = "#3d494d"
 
 [[mode.normal_main]]
-bg = "#f7a182"
+bg = "#f6cee5"
 fg = "#171c1f"
 [[mode.normal_alt]]
 bg = "#2d393d"
-fg = "#f7a182"
+fg = "#f6cee5"
 [[mode.select_main]]
 bg = "#f3c0e5"
 fg = "#171c1f"
@@ -167,7 +167,7 @@ fg = "#96b4aa"
 fg = "#f3c0e5"
 
 [select.border]
-fg = "#f7a182"
+fg = "#f6cee5"
 
 [select.inactive]
 fg = "#f8f9e8"
@@ -207,7 +207,7 @@ bg = "#2d393d"
 fg = "#2d393d"
 
 [tasks.border]
-fg = "#f7a182"
+fg = "#f6cee5"
 
 [tasks.hovered]
 bg = "#2d393d"
@@ -232,9 +232,9 @@ fg = "#58686d"
 fg = "#58686d"
 
 [tabs.active]
-bg = "#f7a182"
+bg = "#f6cee5"
 fg = "#171c1f"
 
 [tabs.inactive]
 bg = "#2d393d"
-fg = "#f7a182"
+fg = "#f6cee5"

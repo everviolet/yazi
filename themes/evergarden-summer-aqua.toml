@@ -3,7 +3,7 @@ bg = "#ced9e0"
 fg = "#d0a3c3"
 
 [completion.border]
-fg = "#a9be88"
+fg = "#91bb9c"
 
 [completion.inactive]
 fg = "#171c1f"
@@ -69,7 +69,7 @@ fg = "#a9be88"
 mime = "application/vnd.*"
 
 [[filetype.rules]]
-fg = "#526469"
+fg = "#63787d"
 mime = "inode/directory"
 
 [[filetype.rules]]
@@ -93,7 +93,7 @@ fg = "#d0a3c3"
 fg = "#91bb9c"
 
 [input.border]
-fg = "#a9be88"
+fg = "#91bb9c"
 
 [input.selected]
 bg = "#ced9e0"
@@ -104,81 +104,70 @@ fg = "#171c1f"
 [input.value]
 fg = "#171c1f"
 
-[manager]
-border_symbol = " "
-folder_offset = [1, 0, 1, 0]
-preview_offset = [1, 1, 1, 1]
-syntect_theme = "/nix/store/si9rzn9x953vphhswlvac14aa50gndbj-evergarden-syntax"
-tab_width = 1
-[manager.border_style]
+[mgr.border_style]
 fg = "#b4c6cc"
 
-[manager.cwd]
+[mgr.cwd]
 fg = "#91bb9c"
 
-[manager.find_keyword]
+[mgr.find_keyword]
 fg = "#a9be88"
 
-[manager.find_position]
+[mgr.find_position]
 fg = "#171c1f"
 
-[manager.hovered]
+[mgr.hovered]
 bg = "#ced9e0"
 fg = "#171c1f"
 
-[manager.marker_copied]
+[mgr.marker_copied]
 bg = "#cbae75"
 fg = "#cbae75"
 
-[manager.marker_cut]
+[mgr.marker_cut]
 bg = "#c0696b"
 fg = "#c0696b"
 
-[manager.marker_selected]
+[mgr.marker_selected]
 bg = "#a9be88"
 fg = "#a9be88"
 
-[manager.preview_hovered]
+[mgr.preview_hovered]
 bg = "#ced9e0"
 fg = "#171c1f"
 
-[manager.tab_active]
+[mgr.tab_active]
 bg = "#a9be88"
 fg = "#e9ebf0"
 
-[manager.tab_inactive]
+[mgr.tab_inactive]
 bg = "#415055"
 fg = "#b4c6cc"
 
-[mode.normal_alt]
+[[mode.normal_main]]
 bg = "#91bb9c"
-fg = "#e9ebf0"
-
-[mode.normal_main]
-bg = "#e9ebf0"
+fg = "#d6dbe9"
+[[mode.normal_alt]]
+bg = "#ced9e0"
 fg = "#91bb9c"
-
-[mode.select_alt]
-bg = "#e9ebf0"
-fg = "#d0a3c3"
-
-[mode.select_main]
+[[mode.select_main]]
 bg = "#d0a3c3"
-fg = "#e9ebf0"
-
-[mode.unset_alt]
-bg = "#e9ebf0"
-fg = "#879da4"
-
-[mode.unset_main]
-bg = "#879da4"
-fg = "#e9ebf0"
+fg = "#d6dbe9"
+[[mode.select_alt]]
+bg = "#ced9e0"
+fg = "#d0a3c3"
+[[mode.unset_main]]
+bg = "#526469"
+fg = "#d6dbe9"
+[[mode.unset_alt]]
+bg = "#ced9e0"
+fg = "#526469"
 
 [select.active]
 fg = "#d0a3c3"
 
 [select.border]
-fg = "#a9be88"
+fg = "#91bb9c"
 
 [select.inactive]
 fg = "#171c1f"
@@ -218,7 +207,7 @@ bg = "#ced9e0"
 fg = "#ced9e0"
 
 [tasks.border]
-fg = "#a9be88"
+fg = "#91bb9c"
 
 [tasks.hovered]
 bg = "#ced9e0"
@@ -241,3 +230,11 @@ fg = "#879da4"
 
 [which.separator_style]
 fg = "#879da4"
+
+[tabs.active]
+bg = "#91bb9c"
+fg = "#d6dbe9"
+
+[tabs.inactive]
+bg = "#ced9e0"
+fg = "#91bb9c"

@@ -1,9 +1,9 @@
 [completion.active]
-bg = "#2d393d"
+bg = "#313b40"
 fg = "#f3c0e5"
 
 [completion.border]
-fg = "#f7a182"
+fg = "#dbe6af"
 
 [completion.inactive]
 fg = "#f8f9e8"
@@ -83,7 +83,7 @@ fg = "#f8f9e8"
 fg = "#f8f9e8"
 
 [help.hovered]
-bg = "#2d393d"
+bg = "#313b40"
 fg = "#f8f9e8"
 
 [help.on]
@@ -93,10 +93,10 @@ fg = "#f3c0e5"
 fg = "#addeb9"
 
 [input.border]
-fg = "#f7a182"
+fg = "#dbe6af"
 
 [input.selected]
-bg = "#2d393d"
+bg = "#313b40"
 
 [input.title]
 fg = "#f8f9e8"
@@ -117,7 +117,7 @@ fg = "#cae0a7"
 fg = "#f8f9e8"
 
 [mgr.hovered]
-bg = "#2d393d"
+bg = "#313b40"
 fg = "#f8f9e8"
 
 [mgr.marker_copied]
@@ -133,41 +133,41 @@ bg = "#cae0a7"
 fg = "#cae0a7"
 
 [mgr.preview_hovered]
-bg = "#2d393d"
+bg = "#313b40"
 fg = "#f8f9e8"
 
 [mgr.tab_active]
 bg = "#cae0a7"
-fg = "#1d2428"
+fg = "#2b3538"
 
 [mgr.tab_inactive]
 bg = "#adc9bc"
 fg = "#3d494d"
 
 [[mode.normal_main]]
-bg = "#f7a182"
-fg = "#171c1f"
+bg = "#dbe6af"
+fg = "#1c2225"
 [[mode.normal_alt]]
-bg = "#2d393d"
-fg = "#f7a182"
+bg = "#313b40"
+fg = "#dbe6af"
 [[mode.select_main]]
 bg = "#f3c0e5"
-fg = "#171c1f"
+fg = "#1c2225"
 [[mode.select_alt]]
-bg = "#2d393d"
+bg = "#313b40"
 fg = "#f3c0e5"
 [[mode.unset_main]]
 bg = "#96b4aa"
-fg = "#171c1f"
+fg = "#1c2225"
 [[mode.unset_alt]]
-bg = "#2d393d"
+bg = "#313b40"
 fg = "#96b4aa"
 
 [select.active]
 fg = "#f3c0e5"
 
 [select.border]
-fg = "#f7a182"
+fg = "#dbe6af"
 
 [select.inactive]
 fg = "#f8f9e8"
@@ -191,26 +191,26 @@ fg = "#d0bbf0"
 fg = "#cae0a7"
 
 [status.progress_error]
-bg = "#1d2428"
+bg = "#2b3538"
 fg = "#f57f82"
 
 [status.progress_label]
-bg = "#1d2428"
+bg = "#2b3538"
 fg = "#f8f9e8"
 
 [status.progress_normal]
-bg = "#1d2428"
+bg = "#2b3538"
 fg = "#f8f9e8"
 
 [status.separator_style]
-bg = "#2d393d"
-fg = "#2d393d"
+bg = "#313b40"
+fg = "#313b40"
 
 [tasks.border]
-fg = "#f7a182"
+fg = "#dbe6af"
 
 [tasks.hovered]
-bg = "#2d393d"
+bg = "#313b40"
 fg = "#f8f9e8"
 
 [tasks.title]
@@ -232,9 +232,9 @@ fg = "#58686d"
 fg = "#58686d"
 
 [tabs.active]
-bg = "#f7a182"
-fg = "#171c1f"
+bg = "#dbe6af"
+fg = "#1c2225"
 
 [tabs.inactive]
-bg = "#2d393d"
-fg = "#f7a182"
+bg = "#313b40"
+fg = "#dbe6af"
