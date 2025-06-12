@@ -85,43 +85,43 @@ fg = "#{{text.hex}}"
 [input.value]
 fg = "#{{text.hex}}"
 
-[manager.border_style]
+[mgr.border_style]
 fg = "#{{surface1.hex}}"
 
-[manager.cwd]
+[mgr.cwd]
 fg = "#{{aqua.hex}}"
 
-[manager.find_keyword]
+[mgr.find_keyword]
 fg = "#{{green.hex}}"
 
-[manager.find_position]
+[mgr.find_position]
 fg = "#{{text.hex}}"
 
-[manager.hovered]
+[mgr.hovered]
 bg = "#{{surface0.hex}}"
 fg = "#{{text.hex}}"
 
-[manager.marker_copied]
+[mgr.marker_copied]
 bg = "#{{yellow.hex}}"
 fg = "#{{yellow.hex}}"
 
-[manager.marker_cut]
+[mgr.marker_cut]
 bg = "#{{red.hex}}"
 fg = "#{{red.hex}}"
 
-[manager.marker_selected]
+[mgr.marker_selected]
 bg = "#{{green.hex}}"
 fg = "#{{green.hex}}"
 
-[manager.preview_hovered]
+[mgr.preview_hovered]
 bg = "#{{surface0.hex}}"
 fg = "#{{text.hex}}"
 
-[manager.tab_active]
+[mgr.tab_active]
 bg = "#{{green.hex}}"
 fg = "#{{base.hex}}"
 
-[manager.tab_inactive]
+[mgr.tab_inactive]
 bg = "#{{subtext1.hex}}"
 fg = "#{{surface1.hex}}"
 
