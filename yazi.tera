@@ -12,6 +12,14 @@ whiskers:
 fg = "#{{color.hex}}"
 mime = "{{mime}}"
 {%- endmacro ftrule -%}
+{% macro modehl(name, color) -%}
+[[mode.{{name}}_main]]
+bg = "#{{color.hex}}"
+fg = "#{{crust.hex}}"
+[[mode.{{name}}_alt]]
+bg = "#{{surface0.hex}}"
+fg = "#{{color.hex}}"
+{%- endmacro modehl -%}
 
 [completion.active]
 bg = "#{{surface0.hex}}"
@@ -125,29 +133,9 @@ fg = "#{{base.hex}}"
 bg = "#{{subtext1.hex}}"
 fg = "#{{surface1.hex}}"
 
-[mode.normal_alt]
-bg = "#{{accent.hex}}"
-fg = "#{{base.hex}}"
-
-[mode.normal_main]
-bg = "#{{base.hex}}"
-fg = "#{{accent.hex}}"
-
-[mode.select_alt]
-bg = "#{{base.hex}}"
-fg = "#{{pink.hex}}"
-
-[mode.select_main]
-bg = "#{{pink.hex}}"
-fg = "#{{base.hex}}"
-
-[mode.unset_alt]
-bg = "#{{base.hex}}"
-fg = "#{{overlay1.hex}}"
-
-[mode.unset_main]
-bg = "#{{overlay1.hex}}"
-fg = "#{{base.hex}}"
+{{self::modehl(name="normal", color=accent)}}
+{{self::modehl(name="select", color=pink)}}
+{{self::modehl(name="unset", color=subtext0)}}
 
 [select.active]
 fg = "#{{pink.hex}}"
