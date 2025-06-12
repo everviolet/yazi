@@ -216,3 +216,11 @@ fg = "#{{overlay0.hex}}"
 
 [which.separator_style]
 fg = "#{{overlay0.hex}}"
+
+[tabs.active]
+bg = "#{{accent.hex}}"
+fg = "#{{crust.hex}}"
+
+[tabs.inactive]
+bg = "#{{surface0.hex}}"
+fg = "#{{accent.hex}}"
