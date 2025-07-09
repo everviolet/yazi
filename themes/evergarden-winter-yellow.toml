@@ -1,5 +1,5 @@
 [completion.active]
-bg = "#2d393d"
+bg = "#262f33"
 fg = "#f3c0e5"
 
 [completion.border]
@@ -9,7 +9,7 @@ fg = "#f5d098"
 fg = "#f8f9e8"
 
 [[filetype.rules]]
-fg = "#addeb9"
+fg = "#b3e3ca"
 mime = "image/*"
 
 [[filetype.rules]]
@@ -53,19 +53,19 @@ fg = "#f3c0e5"
 mime = "application/xz"
 
 [[filetype.rules]]
-fg = "#cae0a7"
+fg = "#cbe3b3"
 mime = "application/doc"
 
 [[filetype.rules]]
-fg = "#cae0a7"
+fg = "#cbe3b3"
 mime = "application/pdf"
 
 [[filetype.rules]]
-fg = "#cae0a7"
+fg = "#cbe3b3"
 mime = "application/rtf"
 
 [[filetype.rules]]
-fg = "#cae0a7"
+fg = "#cbe3b3"
 mime = "application/vnd.*"
 
 [[filetype.rules]]
@@ -83,20 +83,20 @@ fg = "#f8f9e8"
 fg = "#f8f9e8"
 
 [help.hovered]
-bg = "#2d393d"
+bg = "#262f33"
 fg = "#f8f9e8"
 
 [help.on]
 fg = "#f3c0e5"
 
 [help.run]
-fg = "#addeb9"
+fg = "#b3e3ca"
 
 [input.border]
 fg = "#f5d098"
 
 [input.selected]
-bg = "#2d393d"
+bg = "#262f33"
 
 [input.title]
 fg = "#f8f9e8"
@@ -105,19 +105,19 @@ fg = "#f8f9e8"
 fg = "#f8f9e8"
 
 [mgr.border_style]
-fg = "#3d494d"
+fg = "#374145"
 
 [mgr.cwd]
-fg = "#addeb9"
+fg = "#b3e3ca"
 
 [mgr.find_keyword]
-fg = "#cae0a7"
+fg = "#cbe3b3"
 
 [mgr.find_position]
 fg = "#f8f9e8"
 
 [mgr.hovered]
-bg = "#2d393d"
+bg = "#262f33"
 fg = "#f8f9e8"
 
 [mgr.marker_copied]
@@ -129,38 +129,38 @@ bg = "#f57f82"
 fg = "#f57f82"
 
 [mgr.marker_selected]
-bg = "#cae0a7"
-fg = "#cae0a7"
+bg = "#cbe3b3"
+fg = "#cbe3b3"
 
 [mgr.preview_hovered]
-bg = "#2d393d"
+bg = "#262f33"
 fg = "#f8f9e8"
 
 [mgr.tab_active]
-bg = "#cae0a7"
-fg = "#1d2428"
+bg = "#cbe3b3"
+fg = "#1e2528"
 
 [mgr.tab_inactive]
 bg = "#adc9bc"
-fg = "#3d494d"
+fg = "#374145"
 
 [[mode.normal_main]]
 bg = "#f5d098"
 fg = "#171c1f"
 [[mode.normal_alt]]
-bg = "#2d393d"
+bg = "#262f33"
 fg = "#f5d098"
 [[mode.select_main]]
 bg = "#f3c0e5"
 fg = "#171c1f"
 [[mode.select_alt]]
-bg = "#2d393d"
+bg = "#262f33"
 fg = "#f3c0e5"
 [[mode.unset_main]]
 bg = "#96b4aa"
 fg = "#171c1f"
 [[mode.unset_alt]]
-bg = "#2d393d"
+bg = "#262f33"
 fg = "#96b4aa"
 
 [select.active]
@@ -179,51 +179,51 @@ separator_open = ""
 fg = "#f5d098"
 
 [status.permissions_s]
-fg = "#addeb9"
+fg = "#b3e3ca"
 
 [status.permissions_t]
-fg = "#b2cfed"
+fg = "#b2caed"
 
 [status.permissions_w]
-fg = "#d0bbf0"
+fg = "#d2bdf3"
 
 [status.permissions_x]
-fg = "#cae0a7"
+fg = "#cbe3b3"
 
 [status.progress_error]
-bg = "#1d2428"
+bg = "#1e2528"
 fg = "#f57f82"
 
 [status.progress_label]
-bg = "#1d2428"
+bg = "#1e2528"
 fg = "#f8f9e8"
 
 [status.progress_normal]
-bg = "#1d2428"
+bg = "#1e2528"
 fg = "#f8f9e8"
 
 [status.separator_style]
-bg = "#2d393d"
-fg = "#2d393d"
+bg = "#262f33"
+fg = "#262f33"
 
 [tasks.border]
 fg = "#f5d098"
 
 [tasks.hovered]
-bg = "#2d393d"
+bg = "#262f33"
 fg = "#f8f9e8"
 
 [tasks.title]
 fg = "#f8f9e8"
 
 [which.cand]
-fg = "#addeb9"
+fg = "#b3e3ca"
 
 [which.desc]
 fg = "#f8f9e8"
 
 [which.mask]
-bg = "#3d494d"
+bg = "#374145"
 
 [which.rest]
 fg = "#58686d"
@@ -236,5 +236,5 @@ bg = "#f5d098"
 fg = "#171c1f"
 
 [tabs.inactive]
-bg = "#2d393d"
+bg = "#262f33"
 fg = "#f5d098"
