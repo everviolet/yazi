@@ -21,14 +21,14 @@ bg = "#{{surface0.hex}}"
 fg = "#{{color.hex}}"
 {%- endmacro modehl -%}
 
-[completion.active]
+[cmp.active]
 bg = "#{{surface0.hex}}"
 fg = "#{{pink.hex}}"
 
-[completion.border]
+[cmp.border]
 fg = "#{{accent.hex}}"
 
-[completion.inactive]
+[cmp.inactive]
 fg = "#{{text.hex}}"
 
 {{self::ftrule(mime="image/*", color=aqua)}}
@@ -134,34 +134,39 @@ bg = "#{{subtext1.hex}}"
 fg = "#{{surface1.hex}}"
 
 {{self::modehl(name="normal", color=accent)}}
-{{self::modehl(name="select", color=pink)}}
+{{self::modehl(name="pick", color=pink)}}
 {{self::modehl(name="unset", color=subtext0)}}
 
-[select.active]
+[pick.active]
 fg = "#{{pink.hex}}"
 
-[select.border]
+[pick.border]
 fg = "#{{accent.hex}}"
 
-[select.inactive]
+[pick.inactive]
 fg = "#{{text.hex}}"
 
-[status]
-separator_close = ""
-separator_open = ""
-[status.permissions_r]
+[status.sep_left]
+open = ""
+close = ""
+
+[status.sep_right]
+open = ""
+close = ""
+
+[status.perm_read]
 fg = "#{{yellow.hex}}"
 
-[status.permissions_s]
+[status.perm_sep]
 fg = "#{{aqua.hex}}"
 
-[status.permissions_t]
+[status.perm_type]
 fg = "#{{blue.hex}}"
 
-[status.permissions_w]
+[status.perm_write]
 fg = "#{{purple.hex}}"
 
-[status.permissions_x]
+[status.perm_exec]
 fg = "#{{green.hex}}"
 
 [status.progress_error]
