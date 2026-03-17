@@ -1,71 +1,71 @@
-[completion.active]
+[cmp.active]
 bg = "#ced9e0"
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 
-[completion.border]
-fg = "#c1866b"
+[cmp.border]
+fg = "#ca8c70"
 
-[completion.inactive]
+[cmp.inactive]
 fg = "#171c1f"
 
 [[filetype.rules]]
-fg = "#7baa92"
+fg = "#91bb9c"
 mime = "image/*"
 
 [[filetype.rules]]
-fg = "#bc9c6b"
+fg = "#cbae75"
 mime = "video/*"
 
 [[filetype.rules]]
-fg = "#bc9c6b"
+fg = "#cbae75"
 mime = "audio/*"
 
 [[filetype.rules]]
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 mime = "application/zip"
 
 [[filetype.rules]]
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 mime = "application/gzip"
 
 [[filetype.rules]]
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 mime = "application/x-tar"
 
 [[filetype.rules]]
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 mime = "application/x-bzip"
 
 [[filetype.rules]]
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 mime = "application/x-bzip2"
 
 [[filetype.rules]]
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 mime = "application/x-7z-compressed"
 
 [[filetype.rules]]
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 mime = "application/x-rar"
 
 [[filetype.rules]]
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 mime = "application/xz"
 
 [[filetype.rules]]
-fg = "#91ac75"
+fg = "#a9be88"
 mime = "application/doc"
 
 [[filetype.rules]]
-fg = "#91ac75"
+fg = "#a9be88"
 mime = "application/pdf"
 
 [[filetype.rules]]
-fg = "#91ac75"
+fg = "#a9be88"
 mime = "application/rtf"
 
 [[filetype.rules]]
-fg = "#91ac75"
+fg = "#a9be88"
 mime = "application/vnd.*"
 
 [[filetype.rules]]
@@ -87,13 +87,13 @@ bg = "#ced9e0"
 fg = "#171c1f"
 
 [help.on]
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 
 [help.run]
-fg = "#7baa92"
+fg = "#91bb9c"
 
 [input.border]
-fg = "#c1866b"
+fg = "#ca8c70"
 
 [input.selected]
 bg = "#ced9e0"
@@ -108,10 +108,10 @@ fg = "#171c1f"
 fg = "#b4c6cc"
 
 [mgr.cwd]
-fg = "#7baa92"
+fg = "#91bb9c"
 
 [mgr.find_keyword]
-fg = "#91ac75"
+fg = "#a9be88"
 
 [mgr.find_position]
 fg = "#171c1f"
@@ -121,85 +121,90 @@ bg = "#ced9e0"
 fg = "#171c1f"
 
 [mgr.marker_copied]
-bg = "#bc9c6b"
-fg = "#bc9c6b"
+bg = "#cbae75"
+fg = "#cbae75"
 
 [mgr.marker_cut]
 bg = "#c0696b"
 fg = "#c0696b"
 
 [mgr.marker_selected]
-bg = "#91ac75"
-fg = "#91ac75"
+bg = "#a9be88"
+fg = "#a9be88"
 
 [mgr.preview_hovered]
 bg = "#ced9e0"
 fg = "#171c1f"
 
 [mgr.tab_active]
-bg = "#91ac75"
-fg = "#d7e1eb"
+bg = "#a9be88"
+fg = "#e9ebf0"
 
 [mgr.tab_inactive]
 bg = "#415055"
 fg = "#b4c6cc"
 
 [[mode.normal_main]]
-bg = "#c1866b"
-fg = "#bdcbdb"
+bg = "#ca8c70"
+fg = "#d6dbe9"
 [[mode.normal_alt]]
 bg = "#ced9e0"
-fg = "#c1866b"
-[[mode.select_main]]
-bg = "#ca9ebd"
-fg = "#bdcbdb"
-[[mode.select_alt]]
+fg = "#ca8c70"
+[[mode.pick_main]]
+bg = "#d0a3c3"
+fg = "#d6dbe9"
+[[mode.pick_alt]]
 bg = "#ced9e0"
-fg = "#ca9ebd"
+fg = "#d0a3c3"
 [[mode.unset_main]]
 bg = "#526469"
-fg = "#bdcbdb"
+fg = "#d6dbe9"
 [[mode.unset_alt]]
 bg = "#ced9e0"
 fg = "#526469"
 
-[select.active]
-fg = "#ca9ebd"
+[pick.active]
+fg = "#d0a3c3"
 
-[select.border]
-fg = "#c1866b"
+[pick.border]
+fg = "#ca8c70"
 
-[select.inactive]
+[pick.inactive]
 fg = "#171c1f"
 
-[status]
-separator_close = ""
-separator_open = ""
-[status.permissions_r]
-fg = "#bc9c6b"
+[status.sep_left]
+open = ""
+close = ""
 
-[status.permissions_s]
-fg = "#7baa92"
+[status.sep_right]
+open = ""
+close = ""
 
-[status.permissions_t]
-fg = "#8ca0bb"
+[status.perm_read]
+fg = "#cbae75"
 
-[status.permissions_w]
-fg = "#ab9ac6"
+[status.perm_sep]
+fg = "#91bb9c"
 
-[status.permissions_x]
-fg = "#91ac75"
+[status.perm_type]
+fg = "#8ca4bb"
+
+[status.perm_write]
+fg = "#b19ac6"
+
+[status.perm_exec]
+fg = "#a9be88"
 
 [status.progress_error]
-bg = "#d7e1eb"
+bg = "#e9ebf0"
 fg = "#c0696b"
 
 [status.progress_label]
-bg = "#d7e1eb"
+bg = "#e9ebf0"
 fg = "#171c1f"
 
 [status.progress_normal]
-bg = "#d7e1eb"
+bg = "#e9ebf0"
 fg = "#171c1f"
 
 [status.separator_style]
@@ -207,7 +212,7 @@ bg = "#ced9e0"
 fg = "#ced9e0"
 
 [tasks.border]
-fg = "#c1866b"
+fg = "#ca8c70"
 
 [tasks.hovered]
 bg = "#ced9e0"
@@ -217,7 +222,7 @@ fg = "#171c1f"
 fg = "#171c1f"
 
 [which.cand]
-fg = "#7baa92"
+fg = "#91bb9c"
 
 [which.desc]
 fg = "#171c1f"
@@ -232,9 +237,9 @@ fg = "#879da4"
 fg = "#879da4"
 
 [tabs.active]
-bg = "#c1866b"
-fg = "#bdcbdb"
+bg = "#ca8c70"
+fg = "#d6dbe9"
 
 [tabs.inactive]
 bg = "#ced9e0"
-fg = "#c1866b"
+fg = "#ca8c70"

@@ -1,15 +1,15 @@
-[completion.active]
-bg = "#2b3337"
+[cmp.active]
+bg = "#313b40"
 fg = "#f3c0e5"
 
-[completion.border]
+[cmp.border]
 fg = "#f3c0e5"
 
-[completion.inactive]
+[cmp.inactive]
 fg = "#f8f9e8"
 
 [[filetype.rules]]
-fg = "#b3e3ca"
+fg = "#addeb9"
 mime = "image/*"
 
 [[filetype.rules]]
@@ -53,19 +53,19 @@ fg = "#f3c0e5"
 mime = "application/xz"
 
 [[filetype.rules]]
-fg = "#cbe3b3"
+fg = "#cae0a7"
 mime = "application/doc"
 
 [[filetype.rules]]
-fg = "#cbe3b3"
+fg = "#cae0a7"
 mime = "application/pdf"
 
 [[filetype.rules]]
-fg = "#cbe3b3"
+fg = "#cae0a7"
 mime = "application/rtf"
 
 [[filetype.rules]]
-fg = "#cbe3b3"
+fg = "#cae0a7"
 mime = "application/vnd.*"
 
 [[filetype.rules]]
@@ -83,20 +83,20 @@ fg = "#f8f9e8"
 fg = "#f8f9e8"
 
 [help.hovered]
-bg = "#2b3337"
+bg = "#313b40"
 fg = "#f8f9e8"
 
 [help.on]
 fg = "#f3c0e5"
 
 [help.run]
-fg = "#b3e3ca"
+fg = "#addeb9"
 
 [input.border]
 fg = "#f3c0e5"
 
 [input.selected]
-bg = "#2b3337"
+bg = "#313b40"
 
 [input.title]
 fg = "#f8f9e8"
@@ -105,19 +105,19 @@ fg = "#f8f9e8"
 fg = "#f8f9e8"
 
 [mgr.border_style]
-fg = "#374145"
+fg = "#3d494d"
 
 [mgr.cwd]
-fg = "#b3e3ca"
+fg = "#addeb9"
 
 [mgr.find_keyword]
-fg = "#cbe3b3"
+fg = "#cae0a7"
 
 [mgr.find_position]
 fg = "#f8f9e8"
 
 [mgr.hovered]
-bg = "#2b3337"
+bg = "#313b40"
 fg = "#f8f9e8"
 
 [mgr.marker_copied]
@@ -129,66 +129,71 @@ bg = "#f57f82"
 fg = "#f57f82"
 
 [mgr.marker_selected]
-bg = "#cbe3b3"
-fg = "#cbe3b3"
+bg = "#cae0a7"
+fg = "#cae0a7"
 
 [mgr.preview_hovered]
-bg = "#2b3337"
+bg = "#313b40"
 fg = "#f8f9e8"
 
 [mgr.tab_active]
-bg = "#cbe3b3"
+bg = "#cae0a7"
 fg = "#232a2e"
 
 [mgr.tab_inactive]
 bg = "#adc9bc"
-fg = "#374145"
+fg = "#3d494d"
 
 [[mode.normal_main]]
 bg = "#f3c0e5"
 fg = "#171c1f"
 [[mode.normal_alt]]
-bg = "#2b3337"
+bg = "#313b40"
 fg = "#f3c0e5"
-[[mode.select_main]]
+[[mode.pick_main]]
 bg = "#f3c0e5"
 fg = "#171c1f"
-[[mode.select_alt]]
-bg = "#2b3337"
+[[mode.pick_alt]]
+bg = "#313b40"
 fg = "#f3c0e5"
 [[mode.unset_main]]
 bg = "#96b4aa"
 fg = "#171c1f"
 [[mode.unset_alt]]
-bg = "#2b3337"
+bg = "#313b40"
 fg = "#96b4aa"
 
-[select.active]
+[pick.active]
 fg = "#f3c0e5"
 
-[select.border]
+[pick.border]
 fg = "#f3c0e5"
 
-[select.inactive]
+[pick.inactive]
 fg = "#f8f9e8"
 
-[status]
-separator_close = ""
-separator_open = ""
-[status.permissions_r]
+[status.sep_left]
+open = ""
+close = ""
+
+[status.sep_right]
+open = ""
+close = ""
+
+[status.perm_read]
 fg = "#f5d098"
 
-[status.permissions_s]
-fg = "#b3e3ca"
+[status.perm_sep]
+fg = "#addeb9"
 
-[status.permissions_t]
-fg = "#b2caed"
+[status.perm_type]
+fg = "#b2cfed"
 
-[status.permissions_w]
-fg = "#d2bdf3"
+[status.perm_write]
+fg = "#d0bbf0"
 
-[status.permissions_x]
-fg = "#cbe3b3"
+[status.perm_exec]
+fg = "#cae0a7"
 
 [status.progress_error]
 bg = "#232a2e"
@@ -203,27 +208,27 @@ bg = "#232a2e"
 fg = "#f8f9e8"
 
 [status.separator_style]
-bg = "#2b3337"
-fg = "#2b3337"
+bg = "#313b40"
+fg = "#313b40"
 
 [tasks.border]
 fg = "#f3c0e5"
 
 [tasks.hovered]
-bg = "#2b3337"
+bg = "#313b40"
 fg = "#f8f9e8"
 
 [tasks.title]
 fg = "#f8f9e8"
 
 [which.cand]
-fg = "#b3e3ca"
+fg = "#addeb9"
 
 [which.desc]
 fg = "#f8f9e8"
 
 [which.mask]
-bg = "#374145"
+bg = "#3d494d"
 
 [which.rest]
 fg = "#58686d"
@@ -236,5 +241,5 @@ bg = "#f3c0e5"
 fg = "#171c1f"
 
 [tabs.inactive]
-bg = "#2b3337"
+bg = "#313b40"
 fg = "#f3c0e5"
